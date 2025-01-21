@@ -186,6 +186,8 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .point_info p {
@@ -220,11 +222,11 @@ a {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+    margin-right: 40px;
 }
 
 .card-content-house {
-    width: 67%;
+    
     padding-left: 15px;
     display: flex;
     flex-direction: column;
@@ -238,6 +240,7 @@ a {
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .card-house {
@@ -316,6 +319,80 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+
+
+/****** Activity ***********/
+
+.activity {
+    margin-top: 35px;
+    margin-bottom: 65px;
+}
+
+
+.activity h3 {
+    padding: 30px;
+}
+
+.card-activity {
+    width: 297px;
+    height: 439px;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.25));
+    margin-left: 30px;
+}
+
+.card-activity img {
+    margin: 0;
+    width: 297px;
+    height: 380px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+h4 {
+    margin-left: 20px; 
+}
+
+.activity-area {
+    display: flex;
+    flex-direction: row;
+}
+
+/****** Footer ***********/
+
+.a-propos-card {  
+    margin-top: 35px;
+    background-color: #F2F2F2;
+    width: 1340px;
+    height: 163px;
+    display: flex;
+    flex-direction: row;
+}
+    
+
+.txt-a-propos {
+    font-weight: bold;
+}
+
+
+.left-part {
+    width: 446px;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+
 
 
 
