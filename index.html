@@ -42,8 +42,9 @@
                 </div> 
             </div>
         </header>
+    
         <main>
-            <section>
+            <section class="header-trouver">
                 <h1>Trouvez votre hébergement pour les vacances</h1>  
                 <p>En plein centre-ville ou en pleine nature</p>  
                 <div class="search_tool">
@@ -51,14 +52,41 @@
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div class="search_area">
-                        <input type="text" style="text-align: center" name="city" id="city" placeholder="Marseille, France" style="color: black;"/> 
+                        <input type="text" style="padding-left: 20px; " name="city" id="city" placeholder="Marseille, France" class="custom-placeholder"/> 
+                        <button type="submit" id="button" value="Rechercher">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <div class="cta-search">
+                            <input type="submit" name="search" value="Rechercher" class="button_search"/>
+                        </div> 
+                    
                     </div>
+
+                    
+                      
+                      
+                      
+                    
+                    <!-- 
                     <div class="button_search">
-                        <input type="submit" name="serch" value="Rechercher"/>
-                    </div>
+                        <input type="submit" name="search" value="Rechercher"/>
+                    </div> 
+                    
+                    <div class="conteneur-btn-form">
+                        <button class="btn-form-desktop" type="submit">Rechercher</button>
+                        <button class="btn-form-mobile" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div> 
+                    
+                    -->
+
+
+
+                    
                 </div>
                 <div class="filter">
-                    <p>Filtres</p>
+                    <div class="title-filter"><p>Filtres</p></div>
                     <div class="economy">
                         <i class="fa-solid fa-money-bill-wave"></i>
                         <p>Économique</p>
